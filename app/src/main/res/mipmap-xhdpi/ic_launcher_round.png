@@ -1,0 +1,145 @@
+package com.example.ardemo3;
+
+import android.app.Activity;
+import android.content.Context;
+import android.graphics.Color;
+import android.util.Log;
+import android.view.MotionEvent;
+
+import org.rajawali3d.Object3D;
+import org.rajawali3d.cameras.ArcballCamera;
+import org.rajawali3d.lights.DirectionalLight;
+import org.rajawali3d.loader.LoaderOBJ;
+import org.rajawali3d.loader.ParsingException;
+import org.rajawali3d.materials.Material;
+import org.rajawali3d.materials.MaterialManager;
+import org.rajawali3d.materials.methods.DiffuseMethod;
+import org.rajawali3d.materials.textures.Texture;
+import org.rajawali3d.renderer.Renderer;
+
+public class ObjectRenderer extends Renderer {
+
+    private static final String TAG =
+            ObjectRenderer.class.getCanonicalName();
+
+    private Context context;
+    private MaterialManager materialManager;
+    private Material materialTop, materialLeg;
+    private Texture topTexture, legTexture;
+    private LoaderOBJ loaderOBJ;
+    private Object3D object3D;
+    private ArcballCamera arcballCamera;
+    private Translation translation;
+
+    double arLenghtScale = 1, arBreadhtScale = 1, arHeightScale = 1;
+    double lenghtAr = 1, breadhtAr = 1, heightAr = 1;
+    double lengthLegAr = 1, breadthLegAr = 1, heightLegAr = 1;
+    double arLenghtLegScale = 1, arBreadhtLegScale = 1, arHeightLegScale = 1;
+    double legLengthData = 0.05, legBreadthData = 0.05, legHeightData = 0.5;
+    double topLength = 1, topBreadth = 1, topThickness = 1;
+    double translateX = 0.3125f, translateZ = 0.3125f, translateY = -0.5;//0.3125;
+    double baseLength, baseBreadth, baseThickness, baseTransX, baseTransY, baseTransZ;
+    double lengthBaseAr=1, breadthBaseAr=1,thicknessBaseAr=1;
+    double arLengthBaseScale=1,arBreadthBaseScale=1,arThicknessBaseScale=1;
+
+    public ObjectRenderer(Context context) {
+        super(context);
+        this.context = context;
+    }
+
+    @Override
+    protected void initScene() {
+
+        materialManager = MaterialManager.getInstance();
+        DirectionalLight directionalLight =
+                new DirectionalLight(1f, .2f, -1.0f);
+        directionalLight.setColor(1.0f, 1.0f, 1.0f);
+        directionalLight.setPower(2);
+
+        loaderOBJ = new LoaderOBJ(mContext.getResources(), mTextureManager,
+                R.raw.stool_obj);
+
+        topLength = 0.434;
+        topBreadth = 0.489;
+        topThickness = 1;
+        lenghtAr = 2.37;
+        breadhtAr = 2.67;
+        heightAr = 5.45;
+
+        topTexture = new Texture("beech_ructic",
+                R.drawable.beech_rustic);
+        legTexture = new Texture("beech_cut",
+                R.drawable.beech_cut);
+        
+        materialTop = new Material();
+        materialLeg = new Material();
+        arcballCamera = new ArcballCamera(mContext,
+                ((Activity) mContext).findViewById(R.id.surface_view));
+        try {
+            loaderOBJ.parse();
+            object3D = loaderOBJ.getParsedObject();
+            object3D.setX(0);
+            object3D.setY(0);
+            object3D.setZ(0);
+            object3D.setScale(1f);
+            object3D.setDoubleSided(true);
+            int numChild = object3D.getNumChildren();
+            if (String.valueOf(numChild).equalsIgnoreCase("0")) {
+                materialTop.addTexture(mTextureManager.addTexture(topTexture));
+                materialTop.setColorInfluence(0);
+                materialTop.setDiffuseMethod(new DiffuseMethod.Lambert());
+                materialTop.setAmbientColor(Color.BLUE);
+                materialTop.enableLighting(true);
+                Material oldMaterial = object3D.getMaterial();
+                materialManager.removeMaterial(oldMaterial);
+                object3D.setMaterial(materialTop);
+                object3D.setScaleX(topLength);
+                object3D.setScaleZ(topBreadth);
+                object3D.setScaleY(topThickness);
+            } else {
+                for (int i = 0; i < object3D.getNumChildren(); i++) {
+                    String childName = object3D.getChildAt(i).getName();
+                    if (childName.equals("recLT")) {
+                        materialLeg.addTexture(mTextureManager.addTexture(legTexture));
+                        materialLeg.setColorInfluence(0);
+                        materialLeg.setDiffuseMethod(new DiffuseMethod.Lambert());
+                        materialLeg.setAmbientColor(Color.BLACK);
+                        materialLeg.enableLighting(true);
+                        materialManager.removeMaterial(object3D.getChildAt(i).getMaterial());
+                        object3D.getChildAt(i).setMaterial(materialLeg);
+                        object3D.getChildAt(i).setVisible(true);
+                        object3D.getChildAt(i).setScaleX(legLengthData);
+                        object3D.getChildAt(i).setScaleZ(legBreadthData);
+                        object3D.getChildAt(i).setScaleY(legHeightData);
+
+                        lengthLegAr = 0.45;
+                        breadthLegAr = 0.49;
+                        heightLegAr = 6.87;
+
+                    }
+                    else if (childName.equals("recLF")) {
+                        materialLeg.addTexture(mTextureManager.addTexture(legTexture));
+                        materialLeg.setColorInfluence(0);
+                        materialLeg.setDiffuseMethod(new DiffuseMethod.Lambert());
+                        materialLeg.setAmbientColor(Color.BLUE);
+                        materialLeg.enableLighting(true);
+                        materialManager.removeMaterial(object3D.getChildAt(i).getMaterial());
+                        object3D.getChildAt(i).setMaterial(materialLeg);
+                        object3D.getChildAt(i).setVisible(true);
+                        object3D.getChildAt(i).setScaleX(legLengthData);
+                        object3D.getChildAt(i).setScaleZ(legBreadthData);
+                        object3D.getChildAt(i).setScaleY(legHeightData);
+
+                    }
+                    else if (childName.equals("recLFt")) {
+                        materialLeg.addTexture(mTextureManager.addTexture(legTexture));
+                        materialLeg.setColorInfluence(0);
+                        materialLeg.setDiffuseMethod(new DiffuseMethod.Lambert());
+                        materialLeg.setAmbientColor(Color.BLUE);
+                        materialLeg.enableLighting(true);
+                        materialManager.removeMaterial(object3D.getChildAt(i).getMaterial());
+                        object3D.getChildAt(i).setMaterial(materialLeg);
+                        object3D.getChildAt(i).setVisible(true);
+                        object3D.getChildAt(i).setScaleX(legLengthData);
+                        object3D.getChildAt(i).setScaleZ(legBreadthData);
+                        object3D.ge

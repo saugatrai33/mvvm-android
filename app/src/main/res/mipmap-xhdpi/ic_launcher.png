@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fb11c0b4-05d5-4558-bdba-d54408cf9cd2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/roboncnew/ar/gltf/ArActivityGltf.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/roboncnew/ar/gltf/ArActivityGltf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/roboncnew/rajawali/ObjLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/roboncnew/rajawali/ObjLoader.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/build/classes/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="e03b152e" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/roboncnew/rajawali/ObjLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="109" column="49" selection-start-line="109" selection-start-column="49" selection-end-line="109" selection-end-column="49" />
+              <folding>
+                <element signature="docComment;class#ObjLoader#0" />
+                <element signature="e#2748#2778#0" />
+                <element signature="e#2967#3001#0" />
+                <element signature="e#3030#3064#0" />
+                <element signature="e#3121#3148#0" />
+                <element signature="e#3214#3374#0" />
+                <element signature="e#3380#3515#0" />
+                <element signature="e#4027#31614#0" />
+                <element signature="e#4079#4121#0" />
+                <element signature="e#4188#4241#0" />
+                <element signature="e#4423#4495#0" />
+                <element signature="e#4505#4567#0" />
+                <element signature="e#4724#4816#0" />
+                <element signature="e#4826#5014#0" />
+                <element signature="e#5048#5263#1" />
+                <element signature="e#5415#5564#0" />
+                <element signature="e#5628#5711#0" />
+                <element signature="e#5721#5857#0" />
+                <element signature="e#5942#5988#0" />
+                <element signature="e#5997#6039#0" />
+                <element signature="e#6154#6159#0" />
+                <element signature="e#6159#6189#0" />
+                <element signature="e#6189#6297#0" />
+                <element signature="e#6310#31222#0" />
+                <element signature="e#6409#6513#0" />
+                <element signature="e#6619#6682#0" />
+                <element signature="e#6695#6783#0" />
+                <element signature="e#6876#6946#0" />
+                <element signature="e#6959#7020#0" />
+                <element signature="e#7148#7199#0" />
+                <element signature="e#7347#8132#1" />
+                <element signature="e#8150#30763#1" />
+                <element signature="e#8221#30749#1" />
+                <element signature="e#8395#10337#1" />
+                <element signature="e#8421#8450#0" />
+                <element signature="e#9444#9691#1" />
+                <element signature="e#9760#10003#1" />
+          

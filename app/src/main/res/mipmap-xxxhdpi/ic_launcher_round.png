@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0f2abd02-2d76-4fe2-8f4e-828847fb7bf5" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="e03b152e" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ardemo3/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="182" column="30" lean-forward="true" selection-start-line="182" selection-start-column="30" selection-end-line="182" selection-end-column="30" />
+              <folding>
+                <element signature="e#1802#2665#1" />
+                <element signature="e#2774#3906#0" />
+                <element signature="docComment;method#checkIsSupportedDeviceOrFinish#0;class#MainActivity#0" />
+                <element signature="method#checkIsSupportedDeviceOrFinish#0;class#MainActivity#0" />
+                <element signature="method#initModel#0;class#MainActivity#0" />
+                <element signature="method#getGltfAsset#0;class#MainActivity#0" />
+                <element signature="method#renderModel#0;class#MainActivity#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ardemo3/ObjectRenderer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+              <folding>
+                <element signature="e#1900#20797#0" />
+                <element signature="e#2846#20692#0" />
+                <element signature="e#3217#3864#1" />
+                <element signature="e#3870#20264#1" />
+                <element signature="e#3940#20250#1" />
+                <element signature="e#4066#5029#1" />
+                <element signature="e#5086#5914#1" />
+                <element signature="e#5972#6800#1" />
+                <element signature="e#6857#7685#1" />
+                <element signature="e#7742#8703#1" />
+                <element signature="e#8760#9588#1" />
+                <element signature="e#9646#10474#1" />
+                <element signature="e#10531#11359#1" />
+                <element signature="e#11416#12384#1" />
+                <element signature="e#12441#13269#1" />
+                <element signature="e#13327#14155#1" />
+                <element signature="e#14212#15040#1" />
+                <element signature="e#15102#16041#1" />
+                <element signature="e#16097#17137#1" />
+                <element signature="e#17196#18136#1" />
+                <element signature="e#18196#19134#1" />
+                <element signature="e#19194#20134#1" />
+                <element signature="e#20160#20232#1" />
+                <element signature="e#20747#20791#0" />
+                <element signature="e#20803#20991#0" />
+                <element signature="e#20997#21063#0" />
+                <element signature="e#21069#26394#0" />
+                <element signature="e#21244#21442#0" />
+                <element signature="e#21648#26026#1" />
+                <element signature="e#21764#21966#1" />
+                <element signature="e#22016#22396#1" />
+                <element signature="e#22445#22833#1" />
+                <element signature="e#22882#23270#1" />
+                <element signature="e#23319#23717#1" />
+                <element signature="e#23766#23993#1" />
+                <element signature="e#24043#24275#1" />
+                <element signature="e#24324#24606#1" />
+                <element signature="e#24655#24892#1" />
+                <element signature="e#24942#25169#1" />
+                <element signature="e#25218#25450#1" />
+                <element signature="e#25499#25731#1" />
+                <element signature="e#25780#26016#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>objObject</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>object3D</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ardemo3/Translation.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ardemo3/model/BaseColorTexture.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ardemo3/model/Attributes.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ardemo3/model/Node.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ardemo3/model/Asset.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ardemo3/model/Sampler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ardemo3/model/Scene.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ardemo3/model/BufferView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ardemo3/model/Texture.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ardemo3/model/Accessor.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ardemo3/model/AssetDefination.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ardemo3/ThreeDModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_3d.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ardemo3/ObjectRenderer.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ardemo3/MainActivity.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ArDemo3" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="ArDemo3" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="ArDemo3" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="ardemo3" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArDemo3" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/raw" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.packageName">
+      <recent name="com.example.ardemo3" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.ardemo3" />
+      <recent name="com.example.ardemo3.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hitech\AndroidStudioProjects\Rajawali-master\ArDemo3\app\src\main\res\raw" />
+      <recent name="C:\Users\Hitech\AndroidStudioProjects\Rajawali-master\ArDemo3\app\src\main\res\drawable" />
+      <recent name="C:\Users\Hitech\AndroidStudioProjects\Rajawali-master\ArDemo3\app\src\main\java\com\example\ardemo3" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f2abd02-2d76-4fe2-8f4e-828847fb7bf5" name="Default Changelist" comment="" />
+      <created>1579160431121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579160431121</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1358" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.329296" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Mirror" order="1" />
+      <window_info anchor="bottom" id="Logcat" order="2" weight="0.5748792" />
+      <window_inf
